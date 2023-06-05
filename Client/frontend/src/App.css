@@ -1,0 +1,38 @@
+*{
+   margin: 0;
+   padding:0;
+   box-sizing: border-box;
+   
+}
+body{
+  background-color: rgb(245, 234, 219);
+}
+
+.container {
+ 
+  padding: 20px;
+  
+}
+  
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-weight: bolder;
+  font-size: 4rem;
+  background-color: #161615;
+  color: white;
+  padding: 10px;
+  z-index: 1;
+}
+
+.navbar h3 {
+  margin: 0;
+  align-items: center;
+}
+
+.content {
+  margin-top: 50px; /* Adjust this value to leave space below the fixed navbar */
+}

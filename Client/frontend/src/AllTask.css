@@ -1,0 +1,69 @@
+.task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-item h3 {
+    margin-top: 0;
+  }
+  
+  .task-item p {
+    margin-bottom: 5px;
+  }
+  
+  .status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .status.completed {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .completed-button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #d32f2f;
+  }
+  .Align{
+      align-items: center;
+      margin-left: 70px;
+    }
+    table thead tr th{
+         font-weight: bolder;
+         font-size: 2.3rem;
+    }
+    table tbody tr td{
+     
+      font-size: 1.7rem;
+
+    }
